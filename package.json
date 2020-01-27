@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/EnderDev/cards-against-humankind.git"
+    "url": "git+https://github.com/cards-against-humankind/cards-against-humankind.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/EnderDev/cards-against-humankind/issues"
+    "url": "https://github.com/cards-against-humankind/cards-against-humankind/issues"
   },
-  "homepage": "https://github.com/EnderDev/cards-against-humankind#readme",
+  "homepage": "https://github.com/cards-against-humankind/cards-against-humankind#readme",
   "devDependencies": {
     "next": "^9.2.1",
     "react": "^16.12.0",
