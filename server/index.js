@@ -20,6 +20,10 @@ app.get("/cardPacks/:pack?", (req, res) => {
         white: JSON.parse(white),
         black: JSON.parse(black),
       })
+    } else {
+      res.json({
+        error: `Card pack with name "${req.params.pack}" does not exist. See ${req.protocol}://${req.get('host')}/cardPacks for a list of card packs.`
+      })
     }
   } else {
     const items = fs.readdirSync(path.resolve(__dirname, "cardPacks"))
